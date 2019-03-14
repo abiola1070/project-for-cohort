@@ -1,0 +1,48 @@
+body{
+    background: blanchedalmond;
+    
+    
+}
+div{ background:rgb(199, 168, 192);
+    width: 400px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 40px;
+    border:  solid rgb(143, 109, 175);
+    margin-top: 50px;
+    border-radius:15px;
+
+}
+#img{
+    height: 220px; width: 210px;
+    margin-left:80px;
+    margin-right:auto;
+    border:5px solid rgb(192, 149, 179);
+    border-radius: 15%;
+   
+}
+.name{text-align: center;
+    color:rgb(206, 206, 240);
+    font-family: cursive
+}
+.class1{display: flex;
+justify-content: space-around;
+margin-right: 35px;
+list-style: none;
+  
+}
+.class2{
+    border-radius:7px;
+    padding: 5px;
+    background-color: rgb(143, 109, 175);
+    box-shadow: 5px 5px 5px;
+
+
+}
+.class2 > a{
+    text-decoration: none;
+    font-family: cursive; 
+    color: rgb(214, 245, 245)
+  
+}
